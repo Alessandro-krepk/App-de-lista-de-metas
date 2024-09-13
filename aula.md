@@ -8,6 +8,7 @@ Sequência de passos lógica e finita para resolução de um problema.
 - comentários 
 - declaração de variáveis (const, let)
 - Operadores (atribuição, concatenação, matemáticos, lógicos)
+- tipos de dados (string, number, boolean)
 - Estrutura de dados (functions, object, array)
 - Controle de fluxo (if/else)
 - Estrutura de repetição (for, while)
@@ -29,7 +30,10 @@ Sequência de passos lógica e finita para resolução de um problema.
 # Operadores
 - Operadores de atribuição de valor
 - Operador de contatenação
+- Operadores de comparação: == != <= >= < >
+
 # Estruturas de dados:
+
 # Arrays:
 - Uma lista que contém qualquer tipo de dado
 
@@ -41,6 +45,7 @@ Sequência de passos lógica e finita para resolução de um problema.
 - While
 # Condicionais
 - Switch
+- if/else
 # Módulos em Node.js:
 - Importação de módulos (require, CommonJS)
 - biblioteca 'inquirer' para criar prompts interativos
