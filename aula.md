@@ -37,7 +37,7 @@ Sequência de passos lógica e finita para resolução de um problema.
 
 # Arrays:
 - Uma lista que contém qualquer tipo de dado
-- Métodos de array: push, [find, forEach, filter] : HOF (Higher Order Functions)
+- Métodos de array: push, [find, forEach, filter, map] : HOF (Higher Order Functions)
 * no javascript tudo pode ser considerado objeto utilizando " . "
 
 # Objetos:
