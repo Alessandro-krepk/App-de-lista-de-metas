@@ -31,11 +31,14 @@ Sequência de passos lógica e finita para resolução de um problema.
 - Operadores de atribuição de valor
 - Operador de contatenação
 - Operadores de comparação: == != <= >= < >
+- Spread operator: ... (*porém depende do lugar que estará sendo usado)
 
 # Estruturas de dados:
 
 # Arrays:
 - Uma lista que contém qualquer tipo de dado
+- Métodos de array: push, [find, forEach, filter] : HOF (Higher Order Functions)
+* no javascript tudo pode ser considerado objeto utilizando " . "
 
 # Objetos:
 - Atributos e métodos
