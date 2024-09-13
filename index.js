@@ -26,15 +26,15 @@ const listarMetas = async () => {
     choices: metas.map(meta => ({ name: meta.value, value: meta.value, checked: meta.checked })),
     instructions: false,
   })
+  
+  metas.forEach((m) => {
+    m.checked = false
+  })
 
   if (respostas.length == 0) {
     console.log("Nenhuma meta selecionada!")
     return
   }
-
-  metas.forEach((m) => {
-    m.checked = false
-  })
 
   respostas.forEach((resposta) => {
     const meta = metas.find(m => m.value == resposta)
