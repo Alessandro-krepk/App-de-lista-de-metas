@@ -39,3 +39,5 @@ Sequência de passos lógica e finita para resolução de um problema.
 - Acesso a propriedades de objetos
 # Estrutura de repetição
 - While
+# Condicionais
+- Switch
