@@ -37,3 +37,5 @@ Sequência de passos lógica e finita para resolução de um problema.
 - Atributos e métodos
 - Criação e manipulação de objetos
 - Acesso a propriedades de objetos
+# Estrutura de repetição
+- While
