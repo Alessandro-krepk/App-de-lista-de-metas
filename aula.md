@@ -41,3 +41,8 @@ Sequência de passos lógica e finita para resolução de um problema.
 - While
 # Condicionais
 - Switch
+# Módulos em Node.js:
+- Importação de módulos (require, CommonJS)
+- biblioteca 'inquirer' para criar prompts interativos
+# Programação assíncrona e Promises:
+- Uso de funções assíncronas (async/await)
