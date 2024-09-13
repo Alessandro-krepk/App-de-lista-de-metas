@@ -52,5 +52,10 @@ Sequência de passos lógica e finita para resolução de um problema.
 # Módulos em Node.js:
 - Importação de módulos (require, CommonJS)
 - biblioteca 'inquirer' para criar prompts interativos
+FS (file system) *modo nativo do node.js
+# JSON
+Javascript Object notation (.json)
+JSON.parse(): transforma de JSON para JS
+JSON.stringify(): transforma de JS para JSON
 # Programação assíncrona e Promises:
 - Uso de funções assíncronas (async/await)

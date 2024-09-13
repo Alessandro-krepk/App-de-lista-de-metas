@@ -5,3 +5,4 @@ listar metas
 marcar/desmarcar metas realizadas
 remover metas
 sistema de mensagens
+Persistir dados

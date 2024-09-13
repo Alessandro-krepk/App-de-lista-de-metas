@@ -1,0 +1,14 @@
+[
+  {
+    "value": "andar",
+    "checked": true
+  },
+  {
+    "value": "cantar",
+    "checked": true
+  },
+  {
+    "value": "pular",
+    "checked": false
+  }
+]
