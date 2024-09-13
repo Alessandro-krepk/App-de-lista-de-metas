@@ -23,7 +23,7 @@ const cadastrarMeta = async () => {
 const listarMetas = async () => {
   const respostas = await checkbox({
     message: "Use as setas para mudar de meta, o espaço para marcar ou desmarcar e o Enter para finalizar essa etapa",
-    choices: metas.map(meta => ({ name: meta.value, value: meta.value, checked: meta.checked })),
+    choices: [...metas],
     instructions: false,
   })
 
@@ -77,6 +77,30 @@ const metasAbertas = async () => {
   })
 }
 
+const deletarMetas = async () => {
+  const metasDesmarcadas = metas.map((meta) => {
+    return {value: meta.value, checked: false}
+  })
+
+  const itemsADeletar = await checkbox({
+    message: "Selecione item para deletar",
+    choices: [...metasDesmarcadas],
+    instructions: false,
+  })
+  if(itemsADeletar.length == 0) {
+    console.log("Nenhum item para deletar!")
+    return
+  }
+
+  itemsADeletar.forEach((item) => {
+    metas = metas.filter ((meta) => {
+        return meta.value != item
+    })
+  })
+  
+  console.log ("metas(s) deleta(s) com sucesso!")
+}
+
 const start = async () => {
   while (true) {
     const opcao = await select({
@@ -99,6 +123,10 @@ const start = async () => {
           value: "abertas"
         },
         {
+          name: "Deletar metas",
+          value: "deletar"
+        },
+        {
           name: "Sair",
           value: "sair"
         }
@@ -119,6 +147,9 @@ const start = async () => {
       case "abertas":
         await metasAbertas()
          break
+      case "deletar":
+        await deletarMetas()
+        break
       case "sair":
         console.log("Até a próxima!")
         return
